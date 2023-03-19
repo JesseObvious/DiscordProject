@@ -51,10 +51,10 @@
 	- Only do steps 1 - 4, do not do 5.
 
 - **Pull down code from github**
-	- Link to github
+	- https://github.com/JesseObvious/DiscordProject
 	- Move and rename
 		- `cd /home/user/downloads`
-		- `git clone `
+		- `git clone https://github.com/JesseObvious/DiscordProject`
 		- `mvdir DiscordPoject-Master DiscordProject`
 
 - **Install Node JS**
