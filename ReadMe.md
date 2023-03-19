@@ -82,6 +82,9 @@
 	- DiscordProject/PythonPlex/VpnStuff
 		- edit login.txt for you username and password for your open vpn
 			- `nano login.txt`
+			- it should be formatted as such
+				- username
+				- password
 		- place your .ovpn configuration file here and name it `torrent.ovpn`
 	- Update Connect.sh
 		- `sudo nano /DiscordProject/PythonPlex/VpnStuff/connect.sh`
