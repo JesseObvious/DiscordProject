@@ -1,0 +1,4 @@
+beautifulsoup4==4.11.2
+Pillow==9.4.0
+requests==2.25.1
+requests_html==0.10.0
