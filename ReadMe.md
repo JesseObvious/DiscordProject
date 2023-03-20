@@ -50,6 +50,11 @@
 	- https://www.digitaltrends.com/gaming/how-to-make-a-discord-bot/
 	- Only do steps 1 - 4, do not do 5.
 
+- **Setting Bot Permissions
+	- When looking at your new application in discord.com/developers, click on the 'Bot' tab on the left and under the 'Privileged Gateway Intents' section, enable 	  the tick the slider for 'Message Content Setting'.
+	- You will then want to click on 'OAuth2', then click 'URL Generator' and for the list of scopes check 'bot' and 'applications.commands'.
+	- Go to the URL at the bottom and select the Discord Server that the bot should live in.
+
 - **Pull down code from github**
 	- https://github.com/JesseObvious/DiscordProject
 	- Move and rename
@@ -112,9 +117,6 @@
 			- create posts
 			- read message history
 	- Give bot the role
-	- In the discord.com/developers/
-		- Choose your application, then your bot
-		- tick the slider for message content intent setting
 
 - **Start the bot with PM2**
 	- run `cd DiscordProject/DiscordBot/BotFiles`
