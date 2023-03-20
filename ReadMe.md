@@ -70,7 +70,7 @@
 	- `sudo apt-get install transmission-gtk transmission-cli transmission-common transmission-daemon`
 
 - **Install PM2**
-	- `npm -l pm2 -g`
+	- `npm i pm2 -g`
 
 - **Fill in information**
 	- Discord Bot token
