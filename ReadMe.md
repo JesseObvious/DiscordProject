@@ -90,6 +90,8 @@
 			- it should be formatted as such
 				- username
 				- password
+			- For ExpressVPN follow these instructions: https://www.expressvpn.com/support/vpn-setup/manual-config-for-linux-with-openvpn/
+			- If using a different provider just google "How to setup OpenVpn with **VPN Provider Name**
 		- place your .ovpn configuration file here and name it `torrent.ovpn`
 	- Update Connect.sh
 		- `sudo nano /DiscordProject/PythonPlex/VpnStuff/connect.sh`
