@@ -2,11 +2,13 @@
 // DMONEY made dis
 // 12/4/2021
 
+require("dotenv").config({path: '../../.env'});
+
 var Discord = require('discord.io');
 var logger = require('winston');
 var auth = require('./auth.json');
 const fs = require('fs');
-const userName = "plex";
+const userName = process.env.userName;
 
 var botResponses =  [
     'You realize this movies dogshit right?',
@@ -428,7 +430,7 @@ bot.on('message', function (user, userID, channelID, message, evt) {
 
                         bot.sendMessage({
                             to: channelID,
-                            message: "If it takes longer than 30 minutes contact dmoney"
+                            message: "If it takes longer than 30 minutes contact the server admin"
                         
                         });  
                         
